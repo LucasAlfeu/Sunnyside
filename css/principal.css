@@ -1,0 +1,115 @@
+.principal {
+    text-align: center;
+}
+
+.principal__imagem--laranja {
+    background: url(../images/mobile/image-transform.jpg)center / cover no-repeat;
+    width: 100vw;
+    height: 50vh;
+}
+
+.principal__imagem--taça {
+    background: url(../images/mobile/image-stand-out.jpg) center / cover no-repeat;
+    width: 100vw;
+    height: 50vh;
+}
+
+.principal__imagem--cereja {
+    background: url(../images/mobile/image-graphic-design.jpg) center / cover no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 50vh;
+}
+
+.principal__imagem--tanjerina {
+    background: url(../images/mobile/image-photography.jpg) center/ cover no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 50vh;
+}
+
+.principal__caixa {
+    padding: 4rem 1.5rem;
+}
+
+.principal__titulo {
+    font-family: var(--fonte-titulo-secundario);
+    font-size: 2rem;
+    text-transform: uppercase;    
+}
+
+.principal__texto {
+    color: grey;
+    font-family: var(--fonte-principal); 
+    padding-bottom: 1.5rem;  
+}
+
+.principal__link {
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 5px;
+    color: rgb(48, 48, 48);
+    font-family: var(--fonte-link);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5rem 1.25rem;
+}
+
+@media screen and (min-width: 600px) {
+    .principal__caixa {
+        padding: 2.75rem 4rem;
+        height: auto
+    }
+
+    .principal__titulo {
+        font-size: 3rem;
+    }
+
+    .principal__texto {
+        font-size: 1.1rem;
+        padding-bottom: 1.75rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .principal {
+        padding: 0 340px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .principal__caixa {
+        margin: auto 0;
+        padding: auto 1.5rem;
+        width: calc(40%);
+    }
+    .principal__imagem--laranja {
+        width: calc(45%);
+    }
+
+    .principal__imagem--taça {
+        width: 45%;
+        position: relative;
+        right: -550px;
+    }
+
+    .principal__caixa:nth-child(4) {
+        position: relative;
+        right: 550px;
+    }
+
+    .principal__imagem--cereja {
+        width: 45%;
+    }
+
+    .principal__imagem--tanjerina {
+        width: 45%;
+        position: relative;
+        right: -550px;
+    }
+
+    .principal__caixa:nth-child(8) {
+        position: relative;
+        right: 550px;
+    }
+}

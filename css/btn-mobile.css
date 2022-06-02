@@ -1,0 +1,68 @@
+.menu__lista {
+    display: block;
+    height: 0;
+    right: 25px;
+    overflow-y: hidden;
+    position: absolute;
+    transition: 0.6s;
+    text-align: right;
+    visibility: hidden;
+    width: 50vw;
+    z-index: 1000;
+
+}
+
+#cabecalho-menu.ativo .menu__lista {
+    display: block;
+    height: 30vh;
+    visibility: visible;
+    overflow-y: auto;
+}
+
+.menu__item {
+    font-family: var(--fonte-principal);
+    padding-top: .75rem;
+    margin: 0 1rem;
+}
+
+.menu__item--action {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-botao {
+    border: none;
+    display: flex;
+    background: url(../images/mobile/icons8-menu-30.png) center / contain no-repeat;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+    .btn-botao {
+        padding: 1.5rem 2.75rem;
+    }
+
+    .menu__lista {
+        right: 70px;
+    }
+    .menu__item {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__lista {
+        visibility: visible;
+        position: static;
+        height: auto;
+        text-align: center;
+        display: flex;
+        width: auto;
+    }
+
+    .btn-botao {
+        display: none;
+    }
+}

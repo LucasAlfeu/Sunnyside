@@ -1,0 +1,78 @@
+.rodape {
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    width: 100vw;
+}
+
+.rodape__titulo {
+    color: rgb(88, 88, 88);
+    font-size: 2.5rem;
+    font-family: var(--fonte-titulo-secundario);
+    padding: 2.5rem 0;
+}
+
+.rodape__lista {
+    display: flex;
+    margin: 0 auto;
+}
+
+.rodape__item {
+    color: rgb(110, 110, 110);
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+    padding-right: 1rem;
+}
+
+.rodape__item:last-child {
+    padding-right: 0;
+}
+
+.rodape__redes-sociais {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.facebook {
+    background: url(../images/icon-facebook.svg) center / cover no-repeat;
+    height: 25px;
+    width: 25px;
+}
+
+.instagram {
+    background: url(../images/icon-instagram.svg) center / cover no-repeat;
+    height: 25px;
+    margin-left: 1.25rem;
+    width: 25px;
+}
+
+.twitter {
+    background: url(../images/icon-twitter.svg) center / cover no-repeat;
+    height: 25px;
+    margin-left: 1.25rem;
+    width: 25px;
+}
+
+.pinterest {
+    background: url(../images/icon-pinterest.svg) center / cover no-repeat;
+    height: 25px;
+    margin-left: 1rem;
+    width: 25px;
+}
+
+
+.attribution, .attribution__link {
+    color: rgb(88, 88, 88);
+    font-size: 1.5rem;
+    font-family: var(--fonte-principal);
+    padding: 2rem 0;
+    text-decoration: none;
+}
+
+.attribution__link:hover {
+    color: #3D2B2B;
+    text-decoration: underline;
+}

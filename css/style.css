@@ -1,0 +1,24 @@
+:root {
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-titulo: 'Crimson Text', serif;
+    --fonte-titulo-secundario: 'Yrsa', serif;
+    --fonte-link: 'Cutive Mono', monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+.escuro {
+    background: #181818;
+    color: #ffffff;
+}
+
+.rodape__escuro {
+    background-color: rgb(54, 54, 54);
+}
