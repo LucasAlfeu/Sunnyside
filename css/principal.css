@@ -71,7 +71,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
     .principal {
         padding: 0 320px;
         display: flex;

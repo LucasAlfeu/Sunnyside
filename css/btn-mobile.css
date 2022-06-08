@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
     .menu__lista {
         visibility: visible;
         position: static;

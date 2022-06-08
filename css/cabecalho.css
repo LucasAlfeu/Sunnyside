@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:900px) {
     .cabecalho {
         padding: 3rem 320px 0 320px;
     }
