@@ -84,11 +84,11 @@
         width: calc(40%);
     }
     .principal__imagem--laranja {
-        width: calc(45%);
+        width: calc(40%);
     }
 
     .principal__imagem--taça {
-        width: 45%;
+        width: 40%;
         position: relative;
         right: -550px;
     }
@@ -99,11 +99,11 @@
     }
 
     .principal__imagem--cereja {
-        width: 45%;
+        width: 40%;
     }
 
     .principal__imagem--tanjerina {
-        width: 45%;
+        width: 40%;
         position: relative;
         right: -550px;
     }
