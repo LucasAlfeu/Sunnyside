@@ -54,11 +54,11 @@
 
 @media screen and (min-width: 1024px) {
     .menu__lista {
+        display: flex;
         visibility: visible;
         position: static;
         height: auto;
         text-align: center;
-        display: flex;
         width: auto;
     }
 

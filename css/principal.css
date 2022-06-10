@@ -32,6 +32,15 @@
     padding: 4rem 1.5rem;
 }
 
+.principal__alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+    top: 150px;
+    color: white;
+}
+
 .principal__titulo {
     font-family: var(--fonte-titulo-secundario);
     font-size: 2rem;
@@ -53,63 +62,121 @@
     font-weight: bold;
     text-decoration: none;
     padding: .5rem 1.25rem;
+    width: 150px;
 }
 
+.modificado {
+    color: white;
+    border-color: white;
+}
 @media screen and (min-width: 600px) {
     .principal__caixa {
-        padding: 2.75rem 4rem;
+        margin: 2.75rem 4rem;
         height: auto
     }
 
     .principal__titulo {
         font-size: 3rem;
+        margin: 2.5rem 0 .5rem 0;
     }
 
     .principal__texto {
         font-size: 1.1rem;
         padding-bottom: 1.75rem;
     }
+    
+}
+
+@media screen and (min-width: 768px) {    
+    .principal__imagem--laranja {
+        height: 500px;
+        margin: auto;
+        width: 80%;
+    }
+    .principal__imagem--taça {
+        height: 500px;
+        margin: auto;
+        width: 80%;
+    }
+    .principal__caixa {
+        height: 350px;
+        margin: auto;
+        padding: 2rem 0;
+        width: 80%; 
+    }
+    .principal__alinhados {
+        display: flex;
+    }
+    .principal__imagem--cereja , .principal__imagem--tanjerina {
+        height: 500px;
+        width: 50%;
+    }
+
+    .principal__texto {
+        padding: 1rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .principal {
-        padding: 0 320px;
-        display: flex;
-        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto;
     }
 
-    .principal__caixa {
-        margin: auto 0;
-        padding: auto 1.5rem;
-        width: calc(40%);
+    .principal__caixa--laranja {
+        grid-column: 1/1;
+        grid-row: 1/1;
+        margin: auto;
     }
     .principal__imagem--laranja {
-        width: calc(40%);
+        grid-column: 2/3;
+        grid-row: 1/1;
+        width: 100%;
+    }
+    .principal__taca {
+        display: flex;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        width: 100%;
+    }
+
+    .principal__alinhados {
+        grid-column: 1/3;
+        grid-row:3/4;
+    }
+
+    /* .principal__caixa {
+        height: 500px;
+        width: 50%;
+        padding: 0;
+    }
+    
+    .principal__laranja {
+        display: flex;
+        margin: 0;
+    }
+    .principal__imagem--laranja {
+        background: url(../images/desktop/image-transform.jpg) center / cover no-repeat;
+        position: relative;
+        right: -512px;
+        width: 50%;
     }
 
     .principal__imagem--taça {
-        width: 45%;
+        background: url(../images/desktop/image-stand-out.jpg) center / cover no-repeat;
+        width: 50%;
+        margin: 0;
+    }
+    .principal__caixa:nth-child(4){
         position: relative;
-        right: -550px;
+        right: 512px;
+        width: 50%;
     }
 
-    .principal__caixa:nth-child(4) {
-        position: relative;
-        right: 550px;
-    }
-
-    .principal__imagem--cereja {
-        width: 45%;
-    }
-
-    .principal__imagem--tanjerina {
-        width: 45%;
-        position: relative;
-        right: -550px;
-    }
-
-    .principal__caixa:nth-child(8) {
-        position: relative;
-        right: 550px;
-    }
+    .principal__imagem--cereja , .principal__imagem--tanjerina {
+        width: 50%;
+    }      */
 }

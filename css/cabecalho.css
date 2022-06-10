@@ -43,14 +43,14 @@
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .cabecalho {
-        padding: 3rem 320px 0 320px;
+        padding: 3rem auto 0 auto;
     }
 
     .cabecalho__caixa {
-        display: flex;
         align-items: center;
+        display: flex;
         justify-content: space-between;
     }
 
