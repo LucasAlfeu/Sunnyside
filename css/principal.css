@@ -147,36 +147,4 @@
         grid-column: 1/3;
         grid-row:3/4;
     }
-
-    /* .principal__caixa {
-        height: 500px;
-        width: 50%;
-        padding: 0;
-    }
-    
-    .principal__laranja {
-        display: flex;
-        margin: 0;
-    }
-    .principal__imagem--laranja {
-        background: url(../images/desktop/image-transform.jpg) center / cover no-repeat;
-        position: relative;
-        right: -512px;
-        width: 50%;
-    }
-
-    .principal__imagem--taça {
-        background: url(../images/desktop/image-stand-out.jpg) center / cover no-repeat;
-        width: 50%;
-        margin: 0;
-    }
-    .principal__caixa:nth-child(4){
-        position: relative;
-        right: 512px;
-        width: 50%;
-    }
-
-    .principal__imagem--cereja , .principal__imagem--tanjerina {
-        width: 50%;
-    }      */
 }
