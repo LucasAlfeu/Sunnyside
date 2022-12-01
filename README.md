@@ -33,7 +33,7 @@ Como minha primeira mudança de DOM implementei o modo claro e escuro e também 
 # clonar o código
 git clone https://github.com/LucasAlfeu/Sunnyside.git
 
-# entrar na pasta casa verde
+# entrar na pasta sunnyside
 cd sunnyside
 
 # instalar as depedências
